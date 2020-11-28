@@ -1,11 +1,14 @@
 /* Fonts from Google Fonts - more at https://fonts.google.com */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");
 
 body {
-  background-color: white;
   font-family: "Open Sans", sans-serif;
-  padding: 5px 25px;
+  background: #000
+    url("https://cdn.glitch.com/712fd48a-4368-43e2-9233-5a57d42a45d4%2F712fd48a-4368-43e2-9233-5a57d42a45d4_patrick-hendry-jd0hS7Vhn_A-unsplash%20(1).jpg?v=1606572974945");
+  background-size: cover;
+  background-attachment: fixed;
+    padding: 5px 25px;
   font-size: 18px;
   margin: 0;
   color: #444;
@@ -15,3 +18,129 @@ h1 {
   font-family: "Merriweather", serif;
   font-size: 32px;
 }
+#facebook:visited {
+    color: #0D8AF0;
+  }
+  #twitter:visited {
+    color: #1DA1F2;
+  }
+  #instagram:visited {
+    color: #D82B7D;
+  }
+  .container{
+      /*margin: auto*/
+      margin: auto;
+      width:90%; 
+      max-width: 1200px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  header{
+      width:100%;
+      padding:50px 0;
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+  }
+
+  header nav a{
+      color: #fff;
+      text-decoration: none;
+      margin-right: 25px;
+      font-size: 25px;
+  }
+  header nav a:hover{
+   text-decoration: underline;
+}
+
+.main{
+background-color: #fff;
+padding: 20px;
+width:100%;
+}
+.main article .thumb img{
+width:100%;
+vertical-align: top;
+
+ }
+
+.main article h2{ 
+    margin-bottom:20px;
+    font-weight: normal;
+    font-size: 52px;
+    text-align: center;
+}
+
+.main article p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+footer {
+    margin-top: 20px 0;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    color: #000;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+footer .social-media a {
+  text-decoration: underline;
+  margin-left: 20px;
+  margin-top: auto;
+}
+
+footer .author p{
+    margin: auto;
+}
+
+@media screen and (max-width:800px) {
+ .main{
+     width:100%;
+ }
+}
+@media screen and (max-width:600px) {
+    header{
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    header nav {
+        width: 100%;
+        background: rgb(255, 255, 255, .4);
+        text-align: center;
+        padding: 20px;
+        justify-content: space-between;
+        text-align: justify;
+        font-size: 20px;
+    }
+    header nav a {
+        margin: 0 20px;
+    }
+    header .logo {
+        margin-bottom: 20px;
+   }
+
+   footer{
+       flex-direction: column;
+       text-align: center;
+   }
+
+   footer .author{
+       order:2;
+   }
+
+   footer .social-media{
+       order:1;
+       margin-bottom: 12px;
+   }
