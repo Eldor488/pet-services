@@ -137,10 +137,61 @@ ul {
   width: 100%;
   text-align: center;
 }
+
+input[type="text" i], input[type="email"], textarea {
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid #000;
+  /*padding: 3%;*/
+}
+
+#submit-button{
+  font-size: 100%;
+  font-family: "Merriweather", serif;
+   display:block;
+  border: 2px solid #000;
+  background-color: #fff;
+  border-radius: 3px 0px 0px 3px;
+  color: #888;
+  margin: auto;
+  /*padding: 15px;*/
+}
+
+#contact-us{
+ box-sizing: border-box;
+}
+
+.thumb{
+  width: 60%;
+  height: auto;
+}
+
+#submit-button{
+  margin: auto;
+  width: auto;
+  height: auto;
+  font-size: 1.5em;
+}
+#submit-button:hover {
+  background-color: green;
+  color: #fff;
+}
 @media screen and (max-width: 800px) {
   .main,
   main-faqs {
     width: 100%;
+  }
+
+  #submit-button{
+    font-size: 100%;
+    font-family: "Merriweather", serif;
+     display:block;
+    border: 2px solid #000;
+    background-color: #fff;
+    border-radius: 3px 0px 0px 3px;
+    color: #888;
+    margin: auto;
+    /*padding: 15px;*/
   }
 }
 @media screen and (max-width: 600px) {
@@ -176,5 +227,10 @@ ul {
   footer .social-media {
     order: 1;
     margin-bottom: 12px;
+  }
+  #contact-form{
+    display: block;
+      text-align: center;
+      padding: 30px;
   }
 }
