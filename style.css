@@ -5,7 +5,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   background: #000
-    url("https://cdn.glitch.com/712fd48a-4368-43e2-9233-5a57d42a45d4%2F712fd48a-4368-43e2-9233-5a57d42a45d4_patrick-hendry-jd0hS7Vhn_A-unsplash%20(4)%20(1).jpg?v=1607785276856");
+    url("https://cdn.glitch.com/712fd48a-4368-43e2-9233-5a57d42a45d4%2F712fd48a-4368-43e2-9233-5a57d42a45d4_712fd48a-4368-43e2-9233-5a57d42a45d4_patrick-hendry-jd0hS7Vhn_A-unsplash%20(1)-min.jpg?v=1607227733405");
   background-size: cover;
   background-attachment: fixed;
   padding: 5px 25px;
@@ -113,28 +113,31 @@ footer .author p {
 
 .main-faqs img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   width: 40%;
+  margin-top: 4%;
+
 }
 
 .main-faqs ul {
   list-style: none;
 }
 .main-faqs h1{
-  margin-bottom: 20px;
+  margin: auto;
   font-weight: normal;
-  font-size: 52px;
+  font-size:4vw;
   text-align: center;
+  margin-top: 12px;
+
 }
-.main-faqs p,
-ul {
+.main-faqs p {
   font-size: 14px;
+  margin: 12px;
+  padding: 5px;
 }
 .main-faqs {
   background-color: #fff;
-  padding: 20px;
-  width: 100%;
+ 
   text-align: center;
 }
 
@@ -183,7 +186,7 @@ input[type="text" i], input[type="email"], textarea {
   }
 
   #submit-button{
-    font-size: 100%;
+    font-size: 1.5em;
     font-family: "Merriweather", serif;
      display:block;
     border: 2px solid #000;
