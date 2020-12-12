@@ -141,7 +141,7 @@ footer .author p {
   text-align: center;
 }
 
-input[type="text" i], input[type="email"], textarea {
+input[type="text"], input[type="email"], textarea {
   margin: 5px;
   padding: 5px;
   border: 2px solid #000;
